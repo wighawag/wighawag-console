@@ -1,4 +1,4 @@
-package com.wighawag.console;
+package wighawag.console;
 
 import nme.text.TextField;
 import nme.display.Sprite;
@@ -14,7 +14,6 @@ class WConsole {
     public function new() {
         stage = nme.Lib.current.stage;
         view= new ConsoleView();
-        switchVisibility();
         connect();
     }
 

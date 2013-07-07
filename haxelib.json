@@ -1,0 +1,13 @@
+{
+  "name": "wighawag-console",
+  "url" : "https://github.wighawag/wighawag-console/",
+  "license": "Wighawag",
+  "tags": ["cross","openfl"],
+  "description": "",
+  "version": "0.0.1",
+  "releasenote": "",
+  "contributors": ["wighawag"],
+  "classPath" : "src",
+  "dependencies": {"wighawag-report":"","openfl":""},
+  "targets":["as3"]	
+}
