@@ -1,3 +1,7 @@
+/****
+* 
+****/
+
 package wighawag.console;
 
 import nme.text.TextField;
