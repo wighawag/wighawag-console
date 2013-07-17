@@ -4,11 +4,11 @@
 
 package wighawag.console;
 
-import nme.text.TextField;
-import nme.display.Sprite;
-import nme.ui.Keyboard;
-import nme.events.KeyboardEvent;
-import nme.display.Stage;
+import flash.text.TextField;
+import flash.display.Sprite;
+import flash.ui.Keyboard;
+import flash.events.KeyboardEvent;
+import flash.display.Stage;
 
 class WConsole {
 
@@ -16,7 +16,7 @@ class WConsole {
     private var view : ConsoleView;
 
     public function new() {
-        stage = nme.Lib.current.stage;
+        stage = flash.Lib.current.stage;
         view= new ConsoleView();
         connect();
     }
